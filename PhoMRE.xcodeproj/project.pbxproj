@@ -86,8 +86,7 @@
 				3FFF1CCB1762756B00585A55 /* PhoMRE.1 */,
 				3FFF1CC91762756B00585A55 /* Supporting Files */,
 				3FFF1CD517627E0A00585A55 /* Data Structures */,
-				3FFF1CE2176285FF00585A55 /* PMControl.h */,
-				3FFF1CE3176285FF00585A55 /* PMControl.m */,
+				3FFF1CE517628B7700585A55 /* Blackboard */,
 			);
 			path = PhoMRE;
 			sourceTree = "<group>";
@@ -109,6 +108,15 @@
 				3FFF1CDB1762839C00585A55 /* PMArtist.m */,
 			);
 			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		3FFF1CE517628B7700585A55 /* Blackboard */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF1CE2176285FF00585A55 /* PMControl.h */,
+				3FFF1CE3176285FF00585A55 /* PMControl.m */,
+			);
+			name = Blackboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

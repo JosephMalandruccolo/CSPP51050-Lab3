@@ -7,18 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PMControl.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        NSLog(@"Type a number");
-        int num;
-        scanf("%d", &num);
-        NSLog(@"You typed %d", num);
+        PMControl *controller = [[PMControl alloc] init];
+        [controller start];
         
     }
     return 0;
