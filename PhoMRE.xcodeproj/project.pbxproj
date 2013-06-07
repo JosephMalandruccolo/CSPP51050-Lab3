@@ -10,7 +10,8 @@
 		3FFF1CC51762756B00585A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF1CC41762756B00585A55 /* Foundation.framework */; };
 		3FFF1CC81762756B00585A55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF1CC71762756B00585A55 /* main.m */; };
 		3FFF1CCC1762756B00585A55 /* PhoMRE.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FFF1CCB1762756B00585A55 /* PhoMRE.1 */; };
-		3FFF1CD417627E0600585A55 /* PMSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF1CD317627E0500585A55 /* PMSong.m */; };
+		3FFF1CDD1762839C00585A55 /* PMSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF1CD91762839C00585A55 /* PMSong.m */; };
+		3FFF1CDE1762839C00585A55 /* PMArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF1CDB1762839C00585A55 /* PMArtist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +33,10 @@
 		3FFF1CC71762756B00585A55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FFF1CCA1762756B00585A55 /* PhoMRE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoMRE-Prefix.pch"; sourceTree = "<group>"; };
 		3FFF1CCB1762756B00585A55 /* PhoMRE.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PhoMRE.1; sourceTree = "<group>"; };
-		3FFF1CD217627E0500585A55 /* PMSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSong.h; path = Model/PMSong.h; sourceTree = "<group>"; };
-		3FFF1CD317627E0500585A55 /* PMSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSong.m; path = Model/PMSong.m; sourceTree = "<group>"; };
+		3FFF1CD91762839C00585A55 /* PMSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMSong.m; path = DataStructures/PMSong.m; sourceTree = "<group>"; };
+		3FFF1CDA1762839C00585A55 /* PMSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSong.h; path = DataStructures/PMSong.h; sourceTree = "<group>"; };
+		3FFF1CDB1762839C00585A55 /* PMArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMArtist.m; path = DataStructures/PMArtist.m; sourceTree = "<group>"; };
+		3FFF1CDC1762839C00585A55 /* PMArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMArtist.h; path = DataStructures/PMArtist.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +82,7 @@
 				3FFF1CC71762756B00585A55 /* main.m */,
 				3FFF1CCB1762756B00585A55 /* PhoMRE.1 */,
 				3FFF1CC91762756B00585A55 /* Supporting Files */,
-				3FFF1CD517627E0A00585A55 /* Model */,
+				3FFF1CD517627E0A00585A55 /* Data Structures */,
 			);
 			path = PhoMRE;
 			sourceTree = "<group>";
@@ -92,13 +95,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3FFF1CD517627E0A00585A55 /* Model */ = {
+		3FFF1CD517627E0A00585A55 /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
-				3FFF1CD217627E0500585A55 /* PMSong.h */,
-				3FFF1CD317627E0500585A55 /* PMSong.m */,
+				3FFF1CDA1762839C00585A55 /* PMSong.h */,
+				3FFF1CD91762839C00585A55 /* PMSong.m */,
+				3FFF1CDC1762839C00585A55 /* PMArtist.h */,
+				3FFF1CDB1762839C00585A55 /* PMArtist.m */,
 			);
-			name = Model;
+			name = "Data Structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFF1CC81762756B00585A55 /* main.m in Sources */,
-				3FFF1CD417627E0600585A55 /* PMSong.m in Sources */,
+				3FFF1CDD1762839C00585A55 /* PMSong.m in Sources */,
+				3FFF1CDE1762839C00585A55 /* PMArtist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
