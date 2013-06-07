@@ -12,6 +12,7 @@
 		3FFF1CCC1762756B00585A55 /* PhoMRE.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FFF1CCB1762756B00585A55 /* PhoMRE.1 */; };
 		3FFF1CDD1762839C00585A55 /* PMSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF1CD91762839C00585A55 /* PMSong.m */; };
 		3FFF1CDE1762839C00585A55 /* PMArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF1CDB1762839C00585A55 /* PMArtist.m */; };
+		3FFF1CE4176285FF00585A55 /* PMControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF1CE3176285FF00585A55 /* PMControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		3FFF1CDA1762839C00585A55 /* PMSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMSong.h; path = DataStructures/PMSong.h; sourceTree = "<group>"; };
 		3FFF1CDB1762839C00585A55 /* PMArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMArtist.m; path = DataStructures/PMArtist.m; sourceTree = "<group>"; };
 		3FFF1CDC1762839C00585A55 /* PMArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMArtist.h; path = DataStructures/PMArtist.h; sourceTree = "<group>"; };
+		3FFF1CE2176285FF00585A55 /* PMControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMControl.h; path = Blackboard/PMControl.h; sourceTree = "<group>"; };
+		3FFF1CE3176285FF00585A55 /* PMControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMControl.m; path = Blackboard/PMControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				3FFF1CCB1762756B00585A55 /* PhoMRE.1 */,
 				3FFF1CC91762756B00585A55 /* Supporting Files */,
 				3FFF1CD517627E0A00585A55 /* Data Structures */,
+				3FFF1CE2176285FF00585A55 /* PMControl.h */,
+				3FFF1CE3176285FF00585A55 /* PMControl.m */,
 			);
 			path = PhoMRE;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				3FFF1CC81762756B00585A55 /* main.m in Sources */,
 				3FFF1CDD1762839C00585A55 /* PMSong.m in Sources */,
 				3FFF1CDE1762839C00585A55 /* PMArtist.m in Sources */,
+				3FFF1CE4176285FF00585A55 /* PMControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
